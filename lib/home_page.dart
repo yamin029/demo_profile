@@ -22,7 +22,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 )),
               ),
               new Container(
-                height: MediaQuery.of(context).size.height * .65,
+                height: MediaQuery.of(context).size.height * .85,
                 color: Colors.white,
               )
             ],
