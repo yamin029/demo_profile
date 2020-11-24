@@ -14,7 +14,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Column(
             children: [
               new Container(
-                height: MediaQuery.of(context).size.height * .35,
+                height: MediaQuery.of(context).size.height * .45,
                 decoration: BoxDecoration(
                     image: DecorationImage(
                   image: AssetImage('images/cover1.jpg'),
@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Container(
                     padding: EdgeInsets.all(20),
                     child: Transform.translate(
-                      offset: Offset(0,-55),
+                      offset: Offset(0, -55),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -52,31 +52,38 @@ class _MyHomePageState extends State<MyHomePage> {
                             height: 100.0,
                             decoration: BoxDecoration(
                               color: Color(0xff7c94b6),
-                              image:DecorationImage(
+                              image: DecorationImage(
                                 image: AssetImage('images/mono.jpg'),
                                 fit: BoxFit.cover,
                               ),
-                              borderRadius: BorderRadius.all(Radius.circular(50.0)),
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(50.0)),
                               border: Border.all(
                                 color: Colors.white,
                                 width: 4.0,
                               ),
                             ),
                           ),
-
                           Text(
                             'Monomugdha',
                             style: TextStyle(
                                 fontSize: 25, fontWeight: FontWeight.bold),
                           ),
-                          Text('MUWD2',style: TextStyle(fontSize: 10,fontWeight: FontWeight.bold,color: Colors.grey[600]),),
+                          Text(
+                            'MUWD2',
+                            style: TextStyle(
+                                fontSize: 10,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.grey[600]),
+                          ),
                           SizedBox(
                             height: 10,
                           ),
                           Text(
                             'Flutter Developer',
                             style: TextStyle(
-                                fontWeight: FontWeight.bold, color: Colors.grey),
+                                fontWeight: FontWeight.bold,
+                                color: Colors.grey),
                           ),
                           Text(
                             'Independent University,Bangladesh - Dhaka',
@@ -87,7 +94,8 @@ class _MyHomePageState extends State<MyHomePage> {
                               'Plot 16 Block B, Aftabuddin Ahmed Road Bashundhara R/A, Dhaka',
                               textAlign: TextAlign.center,
                               style: TextStyle(
-                                  fontWeight: FontWeight.bold, color: Colors.grey),
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.grey),
                             ),
                           ),
                           Row(
@@ -97,18 +105,28 @@ class _MyHomePageState extends State<MyHomePage> {
                                 onPressed: () {},
                                 child: Text('MASSAGE'),
                                 color: Colors.blue,
-
                               ),
-                              SizedBox(width: 20,),
+                              SizedBox(
+                                width: 20,
+                              ),
                               FlatButton(
                                 onPressed: () {},
-                                child: Text('CONTACT',style: TextStyle(color: Colors.white),),
+                                child: Text(
+                                  'CONTACT',
+                                  style: TextStyle(color: Colors.white),
+                                ),
                                 color: Colors.blue,
                               ),
                             ],
                           ),
-                          SizedBox(height: 10,),
-                          Text('I am a experienced Web developer. I am also skilled in Marketing & consultation',style:TextStyle(fontSize: 12,color: Colors.grey) ,textAlign: TextAlign.center,),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            'I am a experienced Web developer. I am also skilled in Marketing & consultation',
+                            style: TextStyle(fontSize: 12, color: Colors.grey),
+                            textAlign: TextAlign.center,
+                          ),
                         ],
                       ),
                     ),
